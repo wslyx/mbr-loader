@@ -1,0 +1,15 @@
+megs:32
+
+romimage:file=$BXSHARE/BIOS-bochs-latest
+vgaromimage:file=$BXSHARE/VGABIOS-lgpl-latest
+
+floppya:1_44=hdM60.img,status=inserted
+
+#boot:floppy
+boot:disk
+
+log:bochsout.txt
+
+mouse:enabled=0
+
+keyboard: keymap=$BXSHARE/keymaps/x11-pc-de.map
